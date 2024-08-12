@@ -119,7 +119,7 @@ ggplot(data = toolik_chloryphyll,
       aes( x = depth, y = active_chl_a_ug_l)) +
   geom_point(aes(color = active_chl_a_ug_l), 
              show.legend = FALSE) +
-  scale_color_gradient(low = "blue", high = "orange")
+  scale_color_gradient(low = "blue", high = "orange")+
   theme_minimal()+
   labs(title = "Toolik Choryphyll Concentrations", 
        x = "Lake Depth (meters)", 
